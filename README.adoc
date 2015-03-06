@@ -68,5 +68,6 @@ Finally, you may download the package and open it locally using https://chocolat
 == How to contribute or build the package yourself?
 
 You may clone the repository, and simply build the package using the "chocolatey pack" command:
+
  cpack
 
