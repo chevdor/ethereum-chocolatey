@@ -1,0 +1,30 @@
+= AlethZero
+chevdor
+0.8.2-POC8
+
+== Summary 
+Chocolatey package for the Ethereum C++ client: AlethZero. This allows (un)installing the client on windows as you would with homebrew or apt-get. 
+
+You can visit the project page: https://github.com/chevdor/ethereum-chocolatey
+The Github project for AlethZero is located at https://github.com/ethereum/cpp-ethereum
+
+== (Un)Installation
+First ensure you have installed chocolatey: https://chocolatey.org/. You will find a one-liner on the site to install it.
+
+NOTE: At the moment, AlethZero is still a beta, so is the chocolatey package, so dont´t forget the -pre flag!
+
+To find the latest package: 
+
+ clist -pre alethzero
+
+To install AlethZero:
+
+ cinst -pre alethzero
+
+To install the latest version if you already have a version installed:
+
+ cinst -pre -force alethzero
+
+To uninstall AlethZero:
+
+ cuninst alethzero
