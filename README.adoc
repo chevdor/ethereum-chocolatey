@@ -5,11 +5,11 @@ chevdor
 == Summary 
 Chocolatey package for the Ethereum C++ client: AlethZero. This allows (un)installing the client on windows as you would with homebrew or apt-get. 
 
-You can visit the project page: https://github.com/chevdor/ethereum-chocolatey
+You can visit the project page on https://github.com/chevdor/ethereum-chocolatey[GitHub].
 
-The Github project for AlethZero is located at https://github.com/ethereum/cpp-ethereum
+The Github project for AlethZero is located at https://github.com/ethereum/cpp-ethereum[here].
 
-You can find the list of available packages here: https://chocolatey.org/packages?q=alethzero&prerelease=true&sortOrder=relevance
+You can find the list of available packages on https://chocolatey.org/packages?q=alethzero&prerelease=true&sortOrder=relevance[chocolatey.org] or read more about https://github.com/chocolatey/choco/wiki[chocolatey].
 
 WARNING: The *latest* version changes very often. The package downloads the latest. It means that unlike the chocolatey package may suggest, you are not installing *THE* version x.y.z but the current candidate for this version. The official versions will not be flagged with -pre
 
@@ -54,12 +54,12 @@ No! Never trust. Check it yourself!
 
 You can find the scripts here: 
 
-* Install: https://github.com/chevdor/ethereum-chocolatey/blob/master/tools/chocolateyInstall.ps1
-* Uninstall: https://github.com/chevdor/ethereum-chocolatey/blob/master/tools/chocolateyUninstall.ps1
+* Install: https://github.com/chevdor/ethereum-chocolatey/blob/master/tools/chocolateyInstall.ps1[chocolateyInstall.ps1]
+* Uninstall: https://github.com/chevdor/ethereum-chocolatey/blob/master/tools/chocolateyUninstall.ps1[chocolateyUninstall.ps1]
 
 You can also see the script on the chocolatey.org website.
 
-Finally, you may download the package and open it locally using https://chocolatey.org/packages/nugetpackageexplorer and look at the scripts before executing anything.
+Finally, you may download the package and open it locally using https://chocolatey.org/packages/nugetpackageexplorer[NuGET Package Explorer] and look at the scripts before executing anything.
 
 == Known issues
 
@@ -67,7 +67,11 @@ Finally, you may download the package and open it locally using https://chocolat
 
 == How to contribute or build the package yourself?
 
-You may clone the repository, and simply build the package using the "chocolatey pack" command:
+You are very welcome to clone this repository and submit pull requests.
+You can also easily build the package yourself using the "chocolatey pack" command:
 
  cpack
 
+The local install then goes with:
+ 
+ cinst -pre alethzero -source %cd%
