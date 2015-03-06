@@ -67,6 +67,7 @@ Finally, you may download the package and open it locally using https://chocolat
 
 * The uninstall does not remove the ethereum registry entry. This is wanted as more software may come under this key in the future and that would be a bad idea to be so aggressive.
 
+* Make sure to open your command prompt as Admin unless UAC is disabled. Otherwise you won´t be able to create a new folder in "Program Files" and the install will fail.
 
 == How to contribute or build the package yourself?
 
