@@ -65,6 +65,9 @@ Finally, you may download the package and open it locally using https://chocolat
 
 * If you install the package from powershell, the installer will throw you in the install folder at the end of the install. If you run from a regular shell, it will not do that and leave you where you are.
 
+* The uninstall does not remove the ethereum registry entry. This is wanted as more software may come under this key in the future and that would be a bad idea to be so aggressive.
+
+
 == How to contribute or build the package yourself?
 
 You are very welcome to clone this repository and submit pull requests.
