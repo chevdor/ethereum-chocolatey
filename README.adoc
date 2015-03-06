@@ -11,6 +11,8 @@ The Github project for AlethZero is located at https://github.com/ethereum/cpp-e
 
 You can find the list of available packages here: https://chocolatey.org/packages?q=alethzero&prerelease=true&sortOrder=relevance
 
+WARNING: The *latest* version changes very often. The package downloads the latest. It means that unlike the chocolatey package may suggest, you are not installing *THE* version x.y.z but the current candidate for this version. The official versions will not be flagged with -pre
+
 == (Un)Installation
 First ensure you have installed chocolatey: https://chocolatey.org/. You will find a one-liner on the site to install it.
 
@@ -63,4 +65,8 @@ Finally, you may download the package and open it locally using https://chocolat
 
 * If you install the package from powershell, the installer will throw you in the install folder at the end of the install. If you run from a regular shell, it will not do that and leave you where you are.
 
+== How to contribute or build the package yourself?
+
+You may clone the repository, and simply build the package using the "chocolatey pack" command:
+ cpack
 
