@@ -35,10 +35,17 @@ To uninstall AlethZero:
 == What is the package doing on my machine?
 === Install
 
-* Download the latest build from the official repo to your temp folder
-* Unzip it 
+* Download the latest build from the official repo 
+* Store the file into your temp folder
+* Unzip it in your %ProgramFiles%\AlethZero
+* Delete the temp file
 
 === Uninstall
+
+* Wipe the install folder %ProgramFiles%\AlethZero
+* Delete the registry keys related to AlethZero
+
+NOTE: AlethZero is a subkey of Ethereum in the registry. The uninstall process does *not* remove the ethereum key.
 
 == Can I trust it?
 No! Never trust. Check it yourself!
@@ -51,4 +58,9 @@ You can find the scripts here:
 You can also see the script on the chocolatey.org website.
 
 Finally, you may download the package and open it locally using https://chocolatey.org/packages/nugetpackageexplorer and look at the scripts before executing anything.
+
+== Known issues
+
+* If you install the package from powershell, the installer will throw you in the install folder at the end of the install. If you run from a regular shell, it will not do that and leave you where you are.
+
 
