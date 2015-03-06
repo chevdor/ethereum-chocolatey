@@ -7,11 +7,11 @@
         <authors>Chevdor</authors>
         <owners>Chevdor</owners>
         <licenseUrl>https://github.com/ethereum/cpp-ethereum/blob/develop/LICENSE</licenseUrl>
-        <projectUrl>https://github.com/ethereum/cpp-ethereum</projectUrl>
+        <projectUrl>https://github.com/chevdor/ethereum-chocolatey</projectUrl>
         <iconUrl>https://raw.githubusercontent.com/ethereum/ethereum.org/master/public/images/ETHEREUM-LOGO.png</iconUrl>
         <requireLicenseAcceptance>true</requireLicenseAcceptance>
-        <description>Ethereum C++</description>
-        <summary>Ethereum C++</summary>
+        <description>Chocolatey package for AlethZero (Ethereum C++: https://github.com/ethereum/cpp-ethereum)</description>
+        <summary>This chocolatey package allows you installing AlethZero easily on Windows. It will help you uninstall as well. Read more at https://github.com/chevdor/ethereum-chocolatey</summary>
         <releaseNotes />
         <copyright>(C)2014 - Chevdor</copyright>
         <tags>Ethereum, AlethZero, Crypto, Ether, Contract</tags>
