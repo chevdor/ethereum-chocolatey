@@ -1,4 +1,4 @@
-$packageName    = 'AlethZero'
+$packageName    = 'AlethZero-latest'
 
 $source = "https://build.ethdev.com/builds/Windows C++ develop branch/AlethZero-Win32-latest.7z"
 $destination = "$env:temp\AlethZero-Win32-latest.7z"
