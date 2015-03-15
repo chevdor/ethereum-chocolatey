@@ -16,7 +16,7 @@
         <copyright>(C)2014 - Chevdor</copyright>
         <tags>Ethereum, AlethZero, Crypto, Ether, Contract</tags>
         <dependencies>
-            <dependency id="7zip" version="9.22.01.20130618" />
+            <dependency id="7zip.commandline" version="9.20.0.20130618" />
             <dependency id="vcredist2013" version="12.0.0.20140222" />
         </dependencies>
     </metadata>
