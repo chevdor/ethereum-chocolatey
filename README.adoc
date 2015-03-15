@@ -2,6 +2,9 @@
 chevdor
 0.8.2-POC8
 
+image::https://badge.waffle.io/chevdor/sql2asciidoc.svg?label=ready&title=ready[link="http://waffle.io/chevdor/ethereum-chocolatey"] 
+
+
 == Summary 
 Chocolatey package for the Ethereum C++ client: AlethZero. This allows (un)installing the client on windows as you would with homebrew or apt-get. 
 
