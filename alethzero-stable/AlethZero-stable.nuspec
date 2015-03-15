@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
     <metadata>
         <id>AlethZero-Stable</id>
-        <version>0.8.2.3-POC8</version>
+        <version>0.9.1.58-POC9</version>
         <title>AlethZero Stable</title>
         <authors>Chevdor</authors>
         <owners>Chevdor</owners>
@@ -17,6 +17,7 @@
         <tags>Ethereum, AlethZero, Crypto, Ether, Contract</tags>
         <dependencies>
             <dependency id="7zip" version="9.22.01.20130618" />
+            <dependency id="vcredist2013" version="12.0.0.20140222" />
         </dependencies>
     </metadata>
     <files>
