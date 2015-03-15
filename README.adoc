@@ -2,7 +2,7 @@
 chevdor
 0.8.2-POC8
 
-image::https://badge.waffle.io/chevdor/sql2asciidoc.svg?label=ready&title=ready[link="http://waffle.io/chevdor/ethereum-chocolatey"] 
+image::https://badge.waffle.io/chevdor/ethereum-chocolatey.svg?label=ready&title=ready[link="http://waffle.io/chevdor/ethereum-chocolatey"] 
 
 
 == Summary 
