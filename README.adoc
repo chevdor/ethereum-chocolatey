@@ -3,6 +3,8 @@ chevdor
 0.8.2-POC8
 
 image::https://badge.waffle.io/chevdor/ethereum-chocolatey.svg?label=ready&title=ready[link="http://waffle.io/chevdor/ethereum-chocolatey"] 
+image::https://badge.waffle.io/chevdor/ethereum-chocolatey.svg?label=in%20progress&title=in%20progress[link="http://waffle.io/chevdor/ethereum-chocolatey"] 
+image::https://badge.waffle.io/chevdor/ethereum-chocolatey.svg?label=bug&title=bug[link="http://waffle.io/chevdor/ethereum-chocolatey"] 
 
 
 == Summary 
