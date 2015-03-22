@@ -15,7 +15,7 @@ You can visit the project page on https://github.com/chevdor/ethereum-chocolatey
 
 The Github project for AlethZero is located at https://github.com/ethereum/cpp-ethereum[here].
 
-You can find the list of available packages on https://chocolatey.org/packages?q=alethzero&prerelease=true&sortOrder=relevance[chocolatey.org] or read more about https://github.com/chocolatey/choco/wiki[chocolatey].
+You can find the list of available packages on https://chocolatey.org/packages?q=ethereum&prerelease=true&sortOrder=relevance[chocolatey.org] or read more about https://github.com/chocolatey/choco/wiki[chocolatey].
 
 WARNING: The *latest* version changes very often. The package downloads the latest. It means that unlike the chocolatey package may suggest, you are not installing *THE* version x.y.z but the current candidate for this version. The official versions will not be flagged with -pre
 
