@@ -1,16 +1,14 @@
-= AlethZero Chocolatey package for Windows
+= Ethereum Chocolatey package for Windows
+chevdor, 0.8.2-POC8
 
 image:https://badges.gitter.im/Join%20Chat.svg[link="https://gitter.im/chevdor/ethereum-chocolatey?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"]
-chevdor
-0.8.2-POC8
-
 image::https://badge.waffle.io/chevdor/ethereum-chocolatey.svg?label=ready&title=ready[link="http://waffle.io/chevdor/ethereum-chocolatey"] 
 image::https://badge.waffle.io/chevdor/ethereum-chocolatey.svg?label=in%20progress&title=in%20progress[link="http://waffle.io/chevdor/ethereum-chocolatey"] 
 image::https://badge.waffle.io/chevdor/ethereum-chocolatey.svg?label=bug&title=bug[link="http://waffle.io/chevdor/ethereum-chocolatey"] 
 
-
 == Summary 
-Chocolatey package for the Ethereum C++ client: AlethZero. This allows (un)installing the client on windows as you would with homebrew or apt-get. 
+Chocolatey package for the Ethereum software: AlethZero, Mix, Mist,... 
+This allows (un)installing the client on windows as you would with homebrew or apt-get. 
 
 You can visit the project page on https://github.com/chevdor/ethereum-chocolatey[GitHub].
 
@@ -27,19 +25,19 @@ NOTE: At the moment, AlethZero is still a beta, so is the chocolatey package, so
 
 To find the latest package: 
 
- clist -pre alethzero
+ clist -pre alethzero-stable
 
 To install AlethZero:
 
- cinst -pre alethzero
+ cinst -pre alethzero-stable
 
 To install the latest version if you already have a version installed:
 
- cinst -pre -force alethzero
+ cinst -pre -force alethzero-stable
 
 To uninstall AlethZero:
 
- cuninst alethzero
+ cuninst alethzero-stable
 
 == What is the package doing on my machine?
 === Install
@@ -85,4 +83,4 @@ You can also easily build the package yourself using the "chocolatey pack" comma
 
 The local install then goes with:
  
- cinst -pre alethzero -source %cd%
+ cinst -pre alethzero-stable -source %cd%
