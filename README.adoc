@@ -1,7 +1,8 @@
 = Ethereum Chocolatey package for Windows
 chevdor, 0.8.2-POC8
 
-image:https://badges.gitter.im/Join%20Chat.svg[link="https://gitter.im/chevdor/ethereum-chocolatey?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"]
+image::https://badges.gitter.im/Join%20Chat.svg[link="https://gitter.im/chevdor/ethereum-chocolatey?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"]
+
 image::https://badge.waffle.io/chevdor/ethereum-chocolatey.svg?label=ready&title=ready[link="http://waffle.io/chevdor/ethereum-chocolatey"] 
 image::https://badge.waffle.io/chevdor/ethereum-chocolatey.svg?label=in%20progress&title=in%20progress[link="http://waffle.io/chevdor/ethereum-chocolatey"] 
 image::https://badge.waffle.io/chevdor/ethereum-chocolatey.svg?label=bug&title=bug[link="http://waffle.io/chevdor/ethereum-chocolatey"] 
