@@ -1,6 +1,6 @@
 $packageName    = 'AlethZero-stable'
 
-$source = "https://build.ethdev.com/builds/Windows C++ master branch/AlethZero-Win32-latest.7z"
+$source = "https://build.ethdev.com/builds/Windows C++ master branch/AlethZero-Win32-20150227235035-0.8.2-54-5-fef4ed9.7z"
 $destination = "$env:temp\AlethZero-Win32-stable.7z"
 
 Write-Host Let me get the latest version for you. I am copying it in your temp folder:
