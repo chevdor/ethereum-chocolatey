@@ -6,7 +6,7 @@ image::https://badge.waffle.io/chevdor/ethereum-chocolatey.svg?label=ready&title
 
 
 == Summary 
-Chocolatey package for the Ethereum C++ client: AlethZero. This allows (un)installing the client on windows as you would with homebrew or apt-get. 
+Chocolatey package for Ethereum. This allows (un)installing the client on windows as you would with homebrew or apt-get. 
 
 You can visit the project page on https://github.com/chevdor/ethereum-chocolatey[GitHub].
 
@@ -27,22 +27,22 @@ To find the latest package:
 
 To install AlethZero:
 
- cinst -pre alethzero
+ cinst -pre alethzero-stable
 
 To install the latest version if you already have a version installed:
 
- cinst -pre -force alethzero
+ cinst -pre -force alethzero-stable
 
 To uninstall AlethZero:
 
- cuninst alethzero
+ cuninst alethzero-stable
 
 == What is the package doing on my machine?
 === Install
 
 * Download the latest build from the official repo 
 * Store the file into your temp folder
-* Unzip it in your %ProgramFiles%\AlethZero
+* Unzip it in your %ProgramFiles%\AlethZero-stable
 * Delete the temp file
 
 === Uninstall
@@ -81,4 +81,4 @@ You can also easily build the package yourself using the "chocolatey pack" comma
 
 The local install then goes with:
  
- cinst -pre alethzero -source %cd%
+ cinst -pre alethzero-stable -source %cd%
