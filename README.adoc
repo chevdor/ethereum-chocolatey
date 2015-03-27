@@ -1,9 +1,11 @@
-= AlethZero Chocolatey package for Windows
-chevdor
-0.8.2-POC8
+= Ethereum Chocolatey package for Windows
+chevdor, 0.8.2-POC8
+
+image::https://badges.gitter.im/Join%20Chat.svg[link="https://gitter.im/chevdor/ethereum-chocolatey?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"]
 
 image::https://badge.waffle.io/chevdor/ethereum-chocolatey.svg?label=ready&title=ready[link="http://waffle.io/chevdor/ethereum-chocolatey"] 
-
+image::https://badge.waffle.io/chevdor/ethereum-chocolatey.svg?label=in%20progress&title=in%20progress[link="http://waffle.io/chevdor/ethereum-chocolatey"] 
+image::https://badge.waffle.io/chevdor/ethereum-chocolatey.svg?label=bug&title=bug[link="http://waffle.io/chevdor/ethereum-chocolatey"] 
 
 == Summary 
 Chocolatey package for Ethereum. This allows (un)installing the client on windows as you would with homebrew or apt-get. 
@@ -12,7 +14,7 @@ You can visit the project page on https://github.com/chevdor/ethereum-chocolatey
 
 The Github project for AlethZero is located at https://github.com/ethereum/cpp-ethereum[here].
 
-You can find the list of available packages on https://chocolatey.org/packages?q=alethzero&prerelease=true&sortOrder=relevance[chocolatey.org] or read more about https://github.com/chocolatey/choco/wiki[chocolatey].
+You can find the list of available packages on https://chocolatey.org/packages?q=ethereum&prerelease=true&sortOrder=relevance[chocolatey.org] or read more about https://github.com/chocolatey/choco/wiki[chocolatey].
 
 WARNING: The *latest* version changes very often. The package downloads the latest. It means that unlike the chocolatey package may suggest, you are not installing *THE* version x.y.z but the current candidate for this version. The official versions will not be flagged with -pre
 
@@ -23,7 +25,7 @@ NOTE: At the moment, AlethZero is still a beta, so is the chocolatey package, so
 
 To find the latest package: 
 
- clist -pre alethzero
+ clist -pre alethzero-stable
 
 To install AlethZero:
 
